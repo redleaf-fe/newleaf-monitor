@@ -1,0 +1,20 @@
+{
+  "name": "newleaf-monitor",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
+    "pretty": "prettier --write middlewares/* models/* routes/* services/* utils/*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.1.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

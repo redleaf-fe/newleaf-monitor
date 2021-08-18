@@ -7,7 +7,9 @@
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
     "pretty": "prettier --write middlewares/* models/* routes/* services/* utils/*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "dayjs": "^1.10.6"
+  },
   "devDependencies": {
     "conventional-changelog-cli": "^2.1.1",
     "cz-conventional-changelog": "^3.3.0"
